@@ -15,28 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\MathShelldfdf\include\Calculator.h">
+    <ClInclude Include="precision.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="..\MathShelldfdf\include\Formular.h">
+    <ClInclude Include="StrictMath.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="..\MathShelldfdf\include\Function.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="..\MathShelldfdf\include\precision.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\MathShelldfdf\src\Calculator.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="..\MathShelldfdf\src\Formular.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="..\MathShelldfdf\src\Function.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

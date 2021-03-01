@@ -18,6 +18,10 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="precision.h" />
+    <ClInclude Include="StrictMath.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,17 +142,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\MathShelldfdf\include\Calculator.h" />
-    <ClInclude Include="..\MathShelldfdf\include\Formular.h" />
-    <ClInclude Include="..\MathShelldfdf\include\Function.h" />
-    <ClInclude Include="..\MathShelldfdf\include\precision.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\MathShelldfdf\src\Calculator.cpp" />
-    <ClCompile Include="..\MathShelldfdf\src\Formular.cpp" />
-    <ClCompile Include="..\MathShelldfdf\src\Function.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
